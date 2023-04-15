@@ -1,5 +1,6 @@
 local useAsync = require(script.useAsync)
 local useChange = require(script.useChange)
+local useCollectionService = require(script.useCollectionService)
 local useContextAction = require(script.useContextAction)
 local useMap = require(script.useMap)
 local useMemo = require(script.useMemo)
@@ -13,6 +14,7 @@ local useStream = require(script.useStream)
 return {
 	useAsync = useAsync,
 	useChange = useChange,
+	useCollectionService = useCollectionService,
 	useContextAction = useContextAction,
 	useMap = useMap,
 	useMemo = useMemo,
